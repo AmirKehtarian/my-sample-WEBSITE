@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-sample-WEBSITE/static/css/main.57c1682a.css",
+    "main.js": "/my-sample-WEBSITE/static/js/main.b7ecf2d2.js",
+    "static/media/Motivation.pdf": "/my-sample-WEBSITE/static/media/Motivation.8834bc41574e5356438b.pdf",
+    "static/media/amir-3.jpg": "/my-sample-WEBSITE/static/media/amir-3.704ea6dd6dac9fcb16e6.jpg",
+    "static/media/Lebenslauf.pdf": "/my-sample-WEBSITE/static/media/Lebenslauf.f69ed6b8c85dc5624727.pdf",
+    "static/media/img-10.png": "/my-sample-WEBSITE/static/media/img-10.81dd0d76e4e203663730.png",
+    "static/media/img-4.png": "/my-sample-WEBSITE/static/media/img-4.13d69b9c65054030b16e.png",
+    "index.html": "/my-sample-WEBSITE/index.html",
+    "main.57c1682a.css.map": "/my-sample-WEBSITE/static/css/main.57c1682a.css.map",
+    "main.b7ecf2d2.js.map": "/my-sample-WEBSITE/static/js/main.b7ecf2d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c1682a.css",
+    "static/js/main.b7ecf2d2.js"
+  ]
+}
