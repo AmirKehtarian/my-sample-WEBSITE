@@ -4,7 +4,6 @@ import { FiCopy } from 'react-icons/fi'
 import './projects.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Link } from 'react-router-dom'
 
 const Projects = () => {
 
@@ -22,12 +21,12 @@ const Projects = () => {
           <p>Bitte klicken Sie auf die Buttons</p>
         </div>
         <div className='projects-names'>
-          <Link to='/sample-project-TODOLIST' >
+          <a href='/sample-project-TODOLIST' target='_blank' >
             <div className='projects-name'>
               <MdChecklistRtl size={25} />
               <p>To Do List</p>
             </div>
-          </Link>
+          </a>
           <a href='/sample-project-BOXSHADOW' target='_blank'>
             <div className='projects-name'>
               <FiCopy size={25} />
