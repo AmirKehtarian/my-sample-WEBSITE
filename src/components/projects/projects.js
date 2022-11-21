@@ -3,7 +3,8 @@ import { MdChecklistRtl } from 'react-icons/md'
 import { FiCopy } from 'react-icons/fi'
 import './projects.css'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
 
@@ -21,12 +22,12 @@ const Projects = () => {
           <p>Bitte klicken Sie auf die Buttons</p>
         </div>
         <div className='projects-names'>
-          <a href='/sample-project-TODOLIST' target='_blank'>
+          <Link to='/sample-project-TODOLIST' >
             <div className='projects-name'>
               <MdChecklistRtl size={25} />
               <p>To Do List</p>
             </div>
-          </a>
+          </Link>
           <a href='/sample-project-BOXSHADOW' target='_blank'>
             <div className='projects-name'>
               <FiCopy size={25} />
